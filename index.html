@@ -32,6 +32,7 @@
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="about-link"><span class="icon solid fa-user">Contact Me</span></a></li>
 								<li><a href="Career.html" id="games-link"><span class="icon solid fa-journal-whills">Career</span></a></li>
 								<li><a href="Games.html" id="games-link"><span class="icon solid fa-gamepad">Games</span></a></li>
 								<li><a href="Hipstert.html" id="games-link"><span class="icon solid fa-headphones">Hipstert Production</span></a></li>
@@ -156,7 +157,7 @@
 					</section>
 
 				<!-- Contact -->
-					<!--<section id="contact" class="four">
+					<section id="contact" class="four">
 						<div class="container">
 
 							<header>
@@ -165,12 +166,12 @@
 
 							<p>I would love to know your thoughts and answer your queries. Please leave a message. It can be for work, play or just a Hi !</p>
 
-							<form method="post" action="assets/Contact.php">
+							<form method="post" action="assets/https://kwes.io/api/foreign/forms/princegoel2000@gmail.com">
 								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="name" id="name" rules="required" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" id="email" placeholder="Email" rules="required|email|max:255" /></div>
 									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
+										<textarea name="message" id="message" placeholder="Message"></textarea>
 									</div>
 									<div class="col-12">
 										<input type="submit" value="Send Message" />
@@ -179,7 +180,7 @@
 							</form>
 
 						</div>
-					</section>-->
+					</section>
 
 			</div>
 
@@ -201,6 +202,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://kwes.io/v2/kwes-script.js" defer></script>
 
 	</body>
 </html>
