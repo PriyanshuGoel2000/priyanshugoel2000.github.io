@@ -613,7 +613,7 @@
 /* Image */
 
 	.image {
-		border-radius: 3px;
+		border-radius: 30px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -640,17 +640,17 @@
 			max-width: 40%;
 
 			img {
-				width: 100%;
+				width: 40%;
 			}
 		}
 
 		&.fit {
 			display: block;
 			margin: 0 0 _size(element-margin) 0;
-			width: 100%;
+			width: 40%;
 
 			img {
-				width: 100%;
+				width: 40%;
 			}
 		}
 	}
